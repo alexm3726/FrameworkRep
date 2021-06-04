@@ -1,0 +1,28 @@
+Maven project
+
+2 folders
+    main- main is used to write the main code of application
+    test-test is used to write the code for testing the application
+
+
+    Inside test folder
+        java->      our java code which we write to test our application
+        resources-> we keep properties, test data ect
+        config->    we store configuration file
+        utils->     we keep utilities classes we need in project
+
+
+TestNG Class 6
+
+Recap
+    Framework-> it allows you to write, reuse and maintain your code with minimal efforts
+
+    Maven->     it is a build tool that will configure your entire project
+                pom.xml is the heart of the maven project
+
+                POM-> page object model
+
+                User story- Admin should be able to login to hrms application with valid credentials
+
+
+    Properties->
