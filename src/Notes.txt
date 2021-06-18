@@ -24,5 +24,42 @@ Recap
 
                 User story- Admin should be able to login to hrms application with valid credentials
 
+TestNG Class 7
+Recap
 
-    Properties->
+    WebDriverManager->  Manages all the browsers for execution, must be added to the dependencies
+    Constants class ->  to define certain elements that will be used often and will not only make it reusable
+    PageFactory     ->  we used this class to initialize all elements of a page
+
+User Story- 12345 Admin should be able to add employee to the hrms application
+
+User Story - 22345 - System should display an error when invalid login is done
+    1. when user enters valid/invalid username and invalid/valid password then display "Invalid credentials"
+    2. when user lives password field empty then display "Password cannot be empty"
+    3. when user lives username field empty then display "username cannot be empty"
+
+
+
+    To read excel file from java -
+
+    Workbook to use for different versions
+            .xlsx - XSSF
+            .xls - XSSH
+
+        How to get the data from excel file
+        file input stream(filepath)
+        Object of workbook
+        get sheet (name or index)
+        get # of rows
+        get # of cells
+
+        create 2 nested for loops
+
+            Outer loop- rows
+            Inner loop- columns
+
+            getRow(index).getCell(index).toString();
+
+
+
+
